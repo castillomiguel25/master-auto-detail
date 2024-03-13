@@ -328,9 +328,18 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     margin: 35px 0 20px;
 }
 
-.single-service-item:hover h5, li{
+.single-service-item li{
+    color: #50616c;
+}
+
+.single-service-item:hover h5{
     color: #fff;
 }
+
+.single-service-item:hover li{
+    color: #fff;
+}
+
 .single-service-item h2 a span {text-transform:  lowercase;}
 .single-service-item p {padding-bottom: 35px;text-transform: initial;position: relative;}
 .single-service-item p:before {
