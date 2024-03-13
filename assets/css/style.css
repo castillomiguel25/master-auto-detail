@@ -1,32 +1,3 @@
-/*==================================
-* Author        : "ThemeSine"
-* Template Name : CarVilla  HTML Template
-* Version       : 1.0
-==================================== */
-
-/*==================================
-font-family: 'Poppins', sans-serif;
-font-family: 'Rufina', serif;
-==================================== */
-
-
-/*=========== TABLE OF CONTENTS ===========
-1.  General css (Reset code)
-2.  Top-area
-3.  Welcome-hero
-4.  Model-search
-5.  Service
-6.  New-cars
-7.  Featured-cars
-8.  Client-say
-9.  Brand
-10. Blog
-11. Contact
-==========================================*/
-
-/*-------------------------------------
-		1.General css (Reset code)
---------------------------------------*/
 *{
     padding: 0;
     margin: 0;
@@ -49,6 +20,10 @@ body{
 	overflow-x:hidden;
 }
 
+.maginTop{
+    margin-top: 20px;
+}
+
 a,a:hover,a:active,a:focus {
 	display:inline-block;
 	text-decoration:none;
@@ -63,7 +38,6 @@ h1,h2,h3,h4,h5,h6 {
 	color:#444a57;
     font-size: 20px;
     font-weight: 500;
-    text-transform: capitalize;
 }
 p {
 	margin: 0;
@@ -338,6 +312,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     -ms-transition:.3s linear; 
     -o-transition:.3s linear;
     transition: .3s linear;
+    height: 370px;
 }
 
 .single-service-icon {
@@ -347,6 +322,10 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 .single-service-item h2 a {
     font-size:20px;
     margin: 35px 0 20px;
+}
+
+.single-service-item:hover h5{
+    color: #fff;
 }
 .single-service-item h2 a span {text-transform:  lowercase;}
 .single-service-item p {padding-bottom: 35px;text-transform: initial;position: relative;}
@@ -539,6 +518,11 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
         10. Blog
 --------------------------------------*/
 
+.maps-height{
+    height: 500px;
+    width: 500px;
+}
+
 /*-------------------------------------
         12. Contact
 --------------------------------------*/
@@ -546,6 +530,10 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     background: #2a2d54;
 }
 .footer-top {padding: 112px 0 72px;}
+
+#red-color{
+    color: red !important;
+}
 
 /*.footer-logo*/
 .footer-logo a,.footer-logo a:hover,.footer-logo a:focus{
@@ -710,4 +698,10 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     0%   {bottom:0px;}
     100%  {bottom:7px;}
 }
-/*========================Thank you=================
+
+@media only screen and (max-width: 600px) {
+    .maps-height{
+        height: 300px;
+        width: 300px;
+    }
+}
