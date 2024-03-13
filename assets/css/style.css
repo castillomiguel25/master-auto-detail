@@ -24,6 +24,10 @@ body{
     margin-top: 20px;
 }
 
+.maginb{
+    margin-bottom: 20px;
+}
+
 a,a:hover,a:active,a:focus {
 	display:inline-block;
 	text-decoration:none;
@@ -324,7 +328,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     margin: 35px 0 20px;
 }
 
-.single-service-item:hover h5{
+.single-service-item:hover h5, li{
     color: #fff;
 }
 .single-service-item h2 a span {text-transform:  lowercase;}
