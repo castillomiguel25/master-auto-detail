@@ -334,7 +334,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     -ms-transition:.3s linear; 
     -o-transition:.3s linear;
     transition: .3s linear;
-    height: 370px;
+    height: 570px;
 }
 
 .single-service-icon {
@@ -369,6 +369,26 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     bottom: 0;
     left: 50%;
     margin-left: -10px;
+}
+
+.p-price {
+    font-size: 32px;
+    color: red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.p-price-black {
+    margin-top: 10px;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+}
+
+.li-price {
+    color: red;
+    font-weight: bold;
 }
 
 .single-service-icon [class^="flaticon-"]:before,.single-service-icon[class*=" flaticon-"]:before,.single-service-icon [class^="flaticon-"]:after,.single-service-icon [class*=" flaticon-"]:after {font-size:60px;}
